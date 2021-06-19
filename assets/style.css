@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #83d3d4;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #1b8285b8;
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    border-radius: 15px; 
+}
+
+main .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    top: 25px;
+    position: absolute;
+}
+
+main .top input[type="text"] {
+    font-weight: bold;
+    outline: 0;
+    font-size: 20px;
+    width: 65%;
+    border-radius: 8px;
+    border: 1px solid #a6a6a6;
+    padding: 8px;
+    height: 17px;
+}
+
+main .top button {
+    background-color: #f48153;
+    outline: 0;
+    border: 1px solid #f4815336;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 35px;
+    line-height: 0px;
+    width: 25%;
+}
+
+.toDoList {
+    position: absolute;
+    margin-top: 85px;
+    width: 700px;
+}
+
+.toDoList > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e82837a;
+    padding: 5px;
+}
+
+.toDoList > div > div:nth-child(1) {
+    font-weight: bold;
+    width: 85%;
+    padding-left: 20px;
+}
+
+.toDoList > div > div:nth-child(2) {
+    font-weight:bold;
+    width: 15%;
+    text-align: center;
+}
+
+.toDoList > div > div:nth-child(2) i {
+    color: #ce4141;
+    cursor: pointer;
+}
