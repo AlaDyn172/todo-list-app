@@ -14,12 +14,18 @@ main {
     border-radius: 15px; 
 }
 
+main .header {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
 main .top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    top: 25px;
+    top: 75px;
     position: absolute;
 }
 
@@ -50,7 +56,7 @@ main .top button {
 
 .toDoList {
     position: absolute;
-    margin-top: 85px;
+    margin-top: 125px;
     width: 700px;
 }
 
